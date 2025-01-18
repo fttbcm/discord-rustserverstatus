@@ -7,15 +7,15 @@ services:
     restart: unless-stopped
     environment:
       - debug=true
-      - token=your_BOT_token
+      - token=76561197960265728
       - apiSite=4
-      - apiUrl=https://full_uri_here
+      - apiUrl=https://rust.com
       - enableRcon=0
       - serverIp=
-      - serverPort=28015
-      - rconhost=yourip
-      - rconport=28016
-      - rconpass=yourpassword
+      - serverPort=5353
+      - rconhost=192.168.30.53
+      - rconport=5354
+      - rconpass=Cmdx@2025
       - prefix=!
       - "roles=Administrator, admins"
       - "queueMessage=currently waiting in queue"
